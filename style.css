@@ -67,4 +67,40 @@
   .nav_icon{  
       width: 24px;
   }
+  .containerSection{
+    width: 90%;
+    margin: auto;
+}
+
+.rowSection1{
+    display: flex;
+  width: 100%;
+  gap: 8%;
+   
+  
+}
+.right{
+    margin-top: 10%;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20%;
+    
+}
+.left{
+    margin-top: 6%;
+    width: 100%; 
+}
+span{
+    color: #0097a7;
+}
+
+.backImage{
+   background-image: url("image/bg.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 85vh;
+    width: 100%;
+}
   
