@@ -402,3 +402,10 @@ margin-top: 40px;
     color: black;
 }
 
+.background-image2{
+    background-image: url('image/banner.jpg');
+    padding: 0;
+    background-size: cover;
+    margin: 0;
+    height: 20rem;
+}
