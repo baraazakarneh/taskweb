@@ -39,7 +39,7 @@
         list-style-type: none;
   }
   .list a{
-      font-size: large;
+      
       
       text-decoration: none;
       color: black;
@@ -65,8 +65,10 @@
   }
   
   .nav_icon{  
-      width: 24px;
+      width: 16px;
   }
+
+
   .containerSection{
     width: 90%;
     margin: auto;
@@ -144,6 +146,9 @@ width: 40%;
 }
 
 
+
+
+
 .section2_container{
 
 }
@@ -157,8 +162,7 @@ width: 40%;
 
 }
 .section2_icons{
-     display: flex
-;
+     display: flex;
     padding: 1%;
     box-shadow: 0PX 0Px 7px 1px rgb(2, 163, 163);
     justify-content: space-between;
