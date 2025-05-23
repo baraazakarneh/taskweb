@@ -113,8 +113,7 @@ width: 40%;
 }
 
 .parag{
-    
-    
+     
     text-align: justify;
     
 }
@@ -184,6 +183,8 @@ width: 40%;
     fill: rgb(2, 163, 163);
 }
  
+
+
 
 .rowfeatured{
     display: flex;
