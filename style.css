@@ -307,3 +307,56 @@ width: 40%;
     
     color: rgb(83, 77, 77);
   }
+
+
+
+
+  .rownew{
+    display: flex;
+    flex-wrap: wrap; 
+  
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    gap: 40px;
+}
+.hedNew{
+    margin-top: 120px;
+}
+.hedNew h3{
+    font-size: 46px;
+
+}
+#imgnew{
+    width: 16%; 
+    box-sizing: border-box;
+   
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+ 
+}
+#topdown{
+    display: flex;
+    flex-wrap: wrap;             
+    justify-content: center;   
+    gap: 5%;                  
+    margin-top: 50px;
+    
+   
+}
+.iconsNew{
+    display: flex;
+    width:50%;
+     gap: 5%;
+     color: #0097a7;
+}
+
+.learnNew{
+    border: 2px solid ;
+    padding: 4px 10px;
+}
+.learnNew a{
+    color: black;
+}
+
