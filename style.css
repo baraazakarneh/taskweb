@@ -67,6 +67,48 @@
       width: 15%;
   }
 
+  @media (max-width: 768px) {
+    .row {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .list {
+      width: 100%;
+      display: none; 
+      flex-direction: column;
+    }
+  
+    .list_row {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+      padding: 10px;
+    }
+  
+    .icons {
+      width: 100%;
+      justify-content: space-between;
+    }
+  
+    .menu-toggle {
+      display: block;
+    }
+  
+    .list.active {
+      display: flex;
+    }
+  
+    .logo {
+      width: 100%;
+    }
+  
+    .logo img {
+      width: 30%;
+    }
+  }
+  
+
 
   .containerSection{
     width: 90%;
