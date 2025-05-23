@@ -154,6 +154,11 @@ width: 40%;
     gap: 10px;
     margin-top: 80px;
 }
+.hed{
+    text-align: center;
+    font-size: 46px;
+}
+
 
 .imgesFe{
     display: flex;
