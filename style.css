@@ -197,16 +197,16 @@ margin-top: 40px;
     display: flex
 ;
     justify-content: space-between;
-    width: 95%;
-    gap: 5%;
+    width: 90%;
+    gap: 8%;
     margin: auto;
 
 }
 .section2_icons{
      display: flex;
-    padding: 1%;
+    padding: 0.7%;
     box-shadow: 0PX 0Px 7px 1px rgb(2, 163, 163);
-    justify-content: space-between;
+    gap: 13%;
     text-align: center;
     align-items: center;
     
@@ -214,8 +214,12 @@ margin-top: 40px;
 }
 .section2_icon{
     width: 30%;
-    max-width: 30%;
-    height: 40%;
+    
+    height: 30%;
+}
+.font-h3{
+    font-family: 'Roboto', sans-serif;
+
 }
 .size{
     font-size: small;
