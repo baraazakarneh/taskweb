@@ -142,3 +142,64 @@ width: 40%;
     object-fit: cover;     
     box-sizing: border-box;
 }
+
+
+
+
+
+
+.rowfeatured{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 80px;
+}
+
+.imgesFe{
+    display: flex;
+  
+    gap: 40px; 
+   
+    margin-top: 80px;  
+    
+}
+.imgeFeatured{
+    border: 1px solid #ccc;
+    width: 17%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1%;
+    flex-wrap: wrap;
+  
+    height: 50%; 
+}
+.imgeFeatured img{
+
+    width: 80%;
+    height: 220px; 
+    object-fit: cover;
+    border-radius: 4px;
+}
+.nameFeatured {
+    font-size: large;
+    font-weight: bold;
+
+}
+.LocationFeatured{
+    color:#0097a7 ;
+}
+
+  .spanFeatured{
+    border: 2px solid;
+    text-align: center;
+    padding:  2% 4%;
+    width: 50%;
+    
+  }
+  
+  .spanFeatured a{
+    color: black;
+  }
