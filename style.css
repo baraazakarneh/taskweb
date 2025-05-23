@@ -144,7 +144,41 @@ width: 40%;
 }
 
 
+.section2_container{
 
+}
+.section2_row{
+    display: flex
+;
+    justify-content: space-between;
+    width: 95%;
+    gap: 5%;
+    margin: auto;
+
+}
+.section2_icons{
+     display: flex
+;
+    padding: 1%;
+    box-shadow: 0PX 0Px 7px 1px rgb(2, 163, 163);
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    
+    flex-direction: column;
+}
+.section2_icon{
+    width: 30%;
+    max-width: 30%;
+    height: 40%;
+}
+.size{
+    font-size: small;
+
+}
+.section2_icon {
+    fill: rgb(2, 163, 163);
+}
  
 
 .rowfeatured{
