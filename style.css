@@ -122,7 +122,7 @@ width: 40%;
     padding: 0.9%;
     margin-top: 0;
 }
-.learnMore a{
+.learn-more a{
   
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -204,6 +204,17 @@ width: 40%;
     box-sizing: border-box;
      width: 100%;
     padding: 4%;}
+    .learn-more{
+       width: fit-content;
+    padding: 6px 14px;
+    background-color: #009688;
+    color: #fdfdfd;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    cursor: pointer;
+    text-decoration: none;}
+    
 
 .rowfeatured{
     display: flex;
