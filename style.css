@@ -409,3 +409,15 @@ margin-top: 40px;
     margin: 0;
     height: 20rem;
 }
+.banner-row{
+    
+    display: flex;
+    width: 86%;
+    margin: auto;
+    margin: 8% 0% 0% 6.5%;
+    align-content: space-around;
+    
+} 
+.banner-row a{
+    margin: 22% 0 0 0;
+}
