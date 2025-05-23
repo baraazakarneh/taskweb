@@ -183,6 +183,30 @@ width: 40%;
     fill: rgb(2, 163, 163);
 }
  
+.setion3_row {
+    display: flex;
+    gap: 10%;
+    justify-content: space-between;
+}
+.section3_info {
+      display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 8%;
+    flex-direction: column;
+}
+.section3_info h1{
+    font-size: 40px;
+}
+.section3_img {
+    width: 50%;
+}
+.section3_img img{
+    box-sizing: border-box;
+     width: 100%;
+    padding: 4%;}
 
 
 
