@@ -159,7 +159,16 @@ width: 40%;
     font-size: 46px;
 }
 
-
+#scrool{
+    scroll-behavior: smooth ; 
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+#scroolmin{
+    scroll-snap-align: start;
+    flex: 0 0 auto;
+}
 .imgesFe{
     display: flex;
   
