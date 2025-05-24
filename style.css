@@ -468,7 +468,19 @@ margin-top: 40px;
     object-fit: cover;
 }
 
-    
+     .our-blogs-words{
+
+    padding: 5%;
+}
+.bloger-attributes {
+    color: #28afa1;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.our-blogs .p-and-icon{
+    margin-top: 4%;}
 
 .rowReviews{
     margin-top: 200px;
