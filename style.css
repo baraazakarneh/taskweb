@@ -66,7 +66,7 @@ nav{
   }
   
   .nav_icon{  
-      width: 15%;
+      width: 15px;
   }
   .menu-toggle {
     display: none;
@@ -468,15 +468,28 @@ margin-top: 40px;
     object-fit: cover;
 }
 .our-blogs-words{
-    padding: 5%;
+    padding: 7%;
 }
-.bloger-attributes {
-    color: #28afa1;
-    font-size: 20px;
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+
+.rowReviews{
+    margin-top: 200px;
 }
-.our-blogs .p-and-icon{
-    margin-top: 4%;
+.hedRevies{
+    text-align: center;
+    font-size: 46px;
+}
+.reviews{
+    margin-top: 80px;
+    display: flex;
+    gap: 20px;
+}
+.review{
+    max-width: 25%;
+    height: 100%;
+    padding: 10px 10px 30px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    
+    box-shadow: 0 0 6px #0097a7;
 }
