@@ -66,6 +66,17 @@
   .nav_icon{  
       width: 15%;
   }
+  .menu-toggle {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+  
+  }
+  .listMO svg{
+   
+    width: 20px;
+   
+  }
 
   @media (max-width: 768px) {
     .row {
@@ -96,7 +107,13 @@
     }
   
     .list.active {
-      display: flex;
+        display: flex;
+        width: 20%;
+        background-color: #49c3de3a;      
+      border: 1px solid #c5dfe3; 
+      border-radius: 10px; 
+      padding: 15px; 
+      box-shadow: 0 0 6px #0097a7;
     }
   
     .logo {
