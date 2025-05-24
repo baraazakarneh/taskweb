@@ -66,7 +66,7 @@ nav{
   }
   
   .nav_icon{  
-      width: 15%;
+      width: 15px;
   }
   .menu-toggle {
     display: none;
@@ -467,16 +467,75 @@ margin-top: 40px;
     height: 15rem;
     object-fit: cover;
 }
-.our-blogs-words{
-    padding: 5%;
+
+    
+
+.rowReviews{
+    margin-top: 200px;
 }
-.bloger-attributes {
-    color: #28afa1;
-    font-size: 20px;
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+.hedRevies{
+    text-align: center;
+    font-size: 46px;
 }
-.our-blogs .p-and-icon{
-    margin-top: 4%;
+.reviews{
+    margin-top: 80px;
+    display: flex;
+    gap: 20px;
+}
+.review{
+    max-width: 25%;
+    height: 100%;
+    padding: 10px 10px 30px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    
+    box-shadow: 0 0 6px #0097a7;
+}
+.topReviews{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+.toprightReviews{
+    display: flex;
+    width:20%;
+    
+    gap: 20px;
+    flex-direction: column;
+    
+    color: rgb(213, 220, 220);
+}
+.topleftReviews{
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+.imgReviews{
+    width: 40%;
+    border-radius: 50%;
+}
+
+.contensReviews{
+    width: 100%;
+    box-sizing: border-box;
+  
+    
+}
+.contensReviews p {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: block;
+    text-align: justify;
+}
+.iconsReviews{
+    display: flex;
+    width: 30%;
+    color: #0097a7;
+   margin-top: 5px;
+   
+
+
 }
