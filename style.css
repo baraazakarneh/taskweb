@@ -650,9 +650,8 @@ margin-top: 40px;
     display: flex;
     height: 8%;
     justify-content: center;
-    align-content: center;
-    gap: 10p;
-    margin-right: 10p;}
+    
+    }
 
 #email{
     width: fit-content;
@@ -660,4 +659,20 @@ margin-top: 40px;
 }
 .contact p{
     width: 90%;
+}
+
+
+.followUs{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    padding: 2%;
+}
+.SocialFooter {
+    display: flex;
+    height: 5%;
+    width: 80%;
+    justify-content: space-between;
+   
 }
