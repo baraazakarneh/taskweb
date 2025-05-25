@@ -149,7 +149,77 @@ nav{
       width: 30%;
     }
   }
+  @media (max-width: 768px) {
+    .row {
+      align-items: center;
+      width: 100%;
+      padding: 10px 0;
+      gap: 15px;
+    }
+   
+    .logo {
+      width: 100%;
+      text-align: center;
+    }
   
+    .logo img {
+      width: 80px;
+    }
+  
+    .list {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .list_row {
+      align-items: center;
+      gap: 10px;
+    }
+  
+    .list ul {
+      padding: 0;
+      margin: 0;
+    }
+  
+    .list a {
+      display: block;
+      padding: 8px 0;
+      font-size: 18px;
+    }
+  
+    .icons {
+      width: 100%;
+      justify-content: center;
+      gap: 20px;
+    }
+  
+    .nav_icon {
+      width: 24px;
+    }
+  }
+  @media (max-width: 768px) {
+    .hamburger {
+      display: block; 
+    }
+  
+    .list {
+      display: none; 
+      width: 100%; 
+    }
+  
+    .list.show {
+      display: block; 
+    }
+  
+    .list_row {
+      flex-direction: column; 
+      gap: 10px;
+    }
+  
+    .row {
+      flex-wrap: wrap;
+    }
+  } 
 
 
   .containerSection{
