@@ -108,124 +108,61 @@ nav{
     width: 20px;
    
   }
+  
 
   @media (max-width: 768px) {
-    .row {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  
-    .list {
-      width: 100%;
-      display: none; 
-      flex-direction: column;
-    }
-  
-    .list_row {
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 10px;
-      padding: 10px;
-    }
-  
-    .icons {
-      width: 100%;
-      justify-content: space-between;
-    }
-  
-    .menu-toggle {
-      display: block;
-    }
-  
-    .list.active {
-        display: flex;
-        width: 20%;
-        background-color: #49c3de3a;      
-      border: 1px solid #c5dfe3; 
-      border-radius: 10px; 
-      padding: 15px; 
-      box-shadow: 0 0 6px #0097a7;
-    }
-  
+   
+   
+        .list {
+          display: none;
+          width: 100%;
+          margin-top: 10px;
+          text-align: center;
+        }
+      
+        .list.active {
+          display: flex;
+          justify-content: center;
+        }
+      
+        .list_row {
+          flex-direction: column;
+          align-items: center;
+          gap: 15px;
+        }
+        
+      
+      
+    
     .logo {
-      width: 100%;
-    }
-  
-    .logo img {
       width: 30%;
     }
-  }
-  @media (max-width: 768px) {
-    .row {
-      align-items: center;
-      width: 100%;
-      padding: 10px 0;
-      gap: 15px;
-    }
-   
-    .logo {
-      width: 100%;
-      text-align: center;
-    }
   
     .logo img {
-      width: 80px;
+      width: 70%;
     }
   
-    .list {
-      width: 100%;
-      text-align: center;
-    }
-  
-    .list_row {
-      align-items: center;
-      gap: 10px;
-    }
-  
-    .list ul {
-      padding: 0;
-      margin: 0;
-    }
-  
-    .list a {
-      display: block;
-      padding: 8px 0;
-      font-size: 18px;
-    }
-  
+    
     .icons {
-      width: 100%;
-      justify-content: center;
-      gap: 20px;
-    }
-  
-    .nav_icon {
-      width: 24px;
-    }
-  }
-  @media (max-width: 768px) {
-    .hamburger {
-      display: block; 
-    }
-  
-    .list {
-      display: none; 
-      width: 100%; 
-    }
-  
-    .list.show {
-      display: block; 
-    }
-  
-    .list_row {
-      flex-direction: column; 
+      width: auto;
       gap: 10px;
     }
   
+    
+    .menu-toggle {
+      display: inline;
+    }
+  
+ 
     .row {
       flex-wrap: wrap;
+      flex-direction: row;
     }
-  } 
+  
+
+  
+  }
+  
 
 
   .containerSection{
