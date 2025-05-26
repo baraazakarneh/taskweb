@@ -212,8 +212,11 @@ width: 50%;
 .parag{
      
     text-align: justify;
-    
+     font-size: smaller;
+    color: #363535;
+    font-family: 'Poppins', sans-serif;
 }
+
 .learnMore{
     background-color: #0097a7;
     width: fit-content;
@@ -323,6 +326,8 @@ margin-top: 40px;
 }
 .size{
     font-size: small;
+    font-family: 'Poppins', sans-serif;
+    color: #363535;
 
 }
 .section2_icon {
