@@ -29,16 +29,22 @@ html {
   }
 nav{
     width: 100%;
+    
 }
-.container{
+.container {
     padding: 0.5%;
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     box-shadow: 1px 2px 4px #048694f8;
     z-index: 1000;
-  
-  }
+    background-color: white; 
+}
+
   
   .row{
+  
       width: 80%;
       display: flex;
       justify-content: space-between;
@@ -235,7 +241,7 @@ nav{
   
 }
 .right{
-    margin-top: 10%;
+    margin-top: 14%;
     width: 100%;
     
     display: flex;
@@ -244,7 +250,7 @@ nav{
     
 }
 .left{
-    margin-top: 6%;
+    margin-top: 10%;
     width: 100%; 
 }
 span{
@@ -259,7 +265,7 @@ span{
     width: 100%;
 }
 .hedarPage{
-width: 40%;
+width: 50%;
 
 }
 .hedarPage h1{
