@@ -497,6 +497,9 @@ margin-top: 40px;
   
     height: 50%; 
 }
+.idFeatured{
+    color: #878282;
+}
 .imgeFeatured img{
 
     width: 80%;
