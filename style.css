@@ -338,6 +338,8 @@ margin-top: 40px;
     display: flex;
     gap: 10%;
     justify-content: space-between;
+    width: 90%;
+    margin: auto;
 }
 .section3_info {
       display: flex;
@@ -350,6 +352,7 @@ margin-top: 40px;
 }
 .section3_info h1{
     font-size: 40px;
+    font-family: 'Poppins', sans-serif;
 }
 .section3_img {
     width: 50%;
@@ -370,7 +373,11 @@ margin-top: 40px;
     text-decoration: none;}
     
 
-
+.section3_info p{
+    font-family: 'Poppins', sans-serif;
+    color:#363535 ;
+    font-size: small;
+}
 
 .rowfeatured{
     display: flex;
@@ -381,6 +388,7 @@ margin-top: 40px;
 .hed{
     text-align: center;
     font-size: 46px;
+    font-family: 'Poppins', sans-serif;
 }
 
 #scrool{
@@ -424,10 +432,12 @@ margin-top: 40px;
 .nameFeatured {
     font-size: large;
     font-weight: bold;
+    font-family: 'Poppins', sans-serif;
 
 }
 .LocationFeatured{
     color:#0097a7 ;
+    font-family: 'Poppins', sans-serif;
 }
 
   .spanFeatured{
