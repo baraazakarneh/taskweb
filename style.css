@@ -321,6 +321,33 @@ width: 50%;
     font-size: x-small;
      padding: 3px 9px;
 }
+.our-blogs-container {
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 3% !important;
+}
+.our-blogs {
+    background: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    display: flex;
+    margin-bottom: 14px;
+    align-items: center;
+    justify-content: center;
+    width: 48%;
+    margin: auto;
+}
+.rowFooter {
+    display: flex
+;
+    column-gap: 10%;
+    width: 92%;
+    margin: auto;
+    flex-wrap: wrap;
+    padding: 1%;
+}
 }
 
 
