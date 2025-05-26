@@ -246,6 +246,13 @@ width: 50%;
 
 
 @media (max-width: 768px) {
+    .containerSection {
+    width: 90%;
+    margin: auto;
+    margin-top: 35%;
+}
+
+
   .rowSection1 {
       flex-direction: column;
       gap: 40px;
@@ -254,12 +261,19 @@ width: 50%;
 
   .left, .right {
       width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
       margin-top: 0;
       text-align: center;
   }
 
+  .hedarPage{
+    width: 60%;
+  }
   .hedarPage h1 {
       font-size: 1.8rem;
+
   }
 
   .parag {
@@ -271,9 +285,27 @@ width: 50%;
       margin-right: auto;
   }
 
-  .imagPage img {
-      width: 90%;
+  .imagPage{
+    width: 90%;
   }
+  .imagPage img {
+      width: 80%;
+  }
+  section#about {
+    margin-top: 10%;
+}
+   .setion3_row{
+    width: 100% !important;
+   }
+ #imgnew{
+    width: 30% !important;
+ }
+   .imgeFeatured {
+    height: 25% !important;
+   }
+   section#arrival {
+    margin-bottom: 20rem;
+}
 }
 
 
@@ -332,6 +364,34 @@ margin-top: 40px;
 }
 .section2_icon {
     fill: rgb(2, 163, 163);
+}
+
+@media (max-width: 769px){
+       .section2_icons {
+        display: flex;
+        width: fit-content;
+        align-self: center;
+        padding: 0.7%;
+        box-shadow: 0PX 0Px 7px 1px rgb(2, 163, 163);
+        gap: 13%;
+        text-align: center;
+        margin-top: 10%;
+        align-items: center;
+        flex-direction: column;
+    }
+.section2_row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 10%;
+    gap: 8%;
+    margin: auto;
+}
+.section2_icon {
+    width: 20%;
+    height: 30%;
+}
 }
  
 .setion3_row {
@@ -470,7 +530,16 @@ margin-top: 40px;
     
     color: rgb(83, 77, 77);
   }
-
+@media (max-width: 769px){
+    .imgeFeatured {
+        width: 30%;
+    }
+}
+@media (max-width: 425px){
+    .imgeFeatured {
+        width: 50%;
+    }
+}
 
 
 
