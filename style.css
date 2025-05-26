@@ -882,3 +882,20 @@ margin-top: 40px;
     margin-top: 2%;
     transition: border-color 0.3s;
 }
+.design{
+    text-align: center;
+    padding:10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.design svg {
+    width: 3%;
+    height: 1%;
+    fill: #009688;
+   
+}
+.design p{
+    font-size: 16px;
+}
