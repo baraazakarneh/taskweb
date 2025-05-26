@@ -269,7 +269,7 @@ width: 50%;
   }
 
   .hedarPage{
-    width: 60%;
+    width: 30%;
   }
   .hedarPage h1 {
       font-size: 1.8rem;
@@ -305,6 +305,13 @@ width: 50%;
    }
    section#arrival {
     margin-bottom: 20rem;
+}
+.reviews {
+   flex-wrap: wrap;
+}
+.review {
+    max-width: 48% !important;
+
 }
 }
 
